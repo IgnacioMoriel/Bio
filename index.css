@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+:root {
+    --letra-color: #206a5d;
+    --secondary-color: #bfdcae;
+    --tercer-color: #28df99;
+    --cuarto-color: #99f3bd;
+    --crema-colo: #f6f7d4;
+    --fondo-color: #ffffff;
+    --hover-color: #c0c0c0;
+    --hoja-colo: #81b214;
+    --rojo-color: #ec524b;
+    --bggradient: linear-gradient(to bottom, #319b6f, #22aa4f);
+}
+
+.navbar {
+    background-color: black;
+}
+
+/***************** icono del menu var en responsive*/
+.navbar-toggler img {
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--fondo-color);
+}
+
+ .dropdown-menu .dropdown-item{
+    background-color: black;
+    color: white;
+}
+
+/**********************************imagen de fondo*/
+
+.nav1 {
+    height: 660px;
+    background: rgba(0, 0, 0, 0.350);
+    /*capade oscurecimineto*/
+    min-height: 100vh;
+    /*que ocupe el total del alto de la pantalla desde donde estamos viendo el diseño*/
+    /*background-size: cover; /*hacer que la imagen este d etamaño completo*/
+}
+
+#letra-centro .reduz {
+    padding-top: 150px;
+}
+
+#bio {
+    /**********************************LOGO BIO*/
+    font-family: 'Limelight', cursive;
+    font-size: 35px;
+    padding-top: 8px;
+    color: var(--fondo-color);
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-link {
+    /*****************************item VAR*/
+    color: var(--fondo-color);
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 30px;
+    user-select: none;
+}
+
+.nav-link:hover {
+    color: var(--tercer-color);
+    transition: all 0.3s;
+}
+
+#contenedor-letra {
+    width: 1100px;
+}
+
+#letra-centro {
+    /*****************************************mensaje-centro-principal*/
+    color: var(--fondo-color);
+    /*font-family: 'Ranchers', cursive;*/
+}
+
+#letra-centro h1 {
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 100px;
+    user-select: none;
+}
+.sub-letra{
+    color:var(--fondo-color);
+    text-align: right;
+    margin-right: 3vmin;
+    margin-top: 29vmin;
+}
+.sub-letra h6{
+    font-size: 12px;
+}
+
+.secton2-1 h2 {
+    /*****************************************mensaje-1*/
+    text-align: center;
+    font-weight: bold;
+    margin: 100px 120px 20px 0;
+    text-align: right;
+    color: #fddb3a;
+}
+
+/*******************************************************sextion 1 */
+
+.section-1 {
+    padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    /*opacity: 0.8;*/
+    width: 80%;
+    border-radius: 10px;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 9vmin;
+    /*Posision texto flotante eje Y*/
+    left: -25vmin;
+    /*Posision texto flotante eje X*/
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 7vmin 9vmin 7vmin 10vmin;
+    /*arriba,derecha ,abajo, izquierda*/
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.3);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    color: var(--rojo-color);
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    color: var(--letra-color);
+    font-size: 0.9em;
+}
+
+.section-1 .row .col-md-6 .panel h6 {
+    text-align: right;
+    font-weight: 800;
+    color: var(--rojo-color);
+}
+
+.section-1 .row .col-md-6 .panel .float-right .frame {
+    user-select: none;
+}
+
+/********************************************************frame data escala*/
+
+.container h3 {
+    color: #fca652;
+    /**/
+    font-weight: 600;
+}
+
+.text-frame p {
+    color: var(--letra-color);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container h6 {
+    color: #fca652;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/*********************************************************tabla*/
+
+#organic-container {
+    background: #fff;
+    padding: 40px 0;
+}
+
+#organic-container #table-comparative-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#organic-container #table-comparative-container .left {
+    background: var(--letra-color);
+    color: var(--secondary-color);
+}
+
+#organic-container #table-comparative-container .right {
+    background: var(--secondary-color);
+    color: var(--letra-color);
+    text-align: right;
+}
+
+#organic-container #table-comparative-container .right h4 {
+    color: var(--letra-color);
+}
+
+#organic-container #table-comparative-container .right .row {
+    flex-direction: row-reverse;
+    /*******************texto derecho que comience del lado derecho*/
+    border-bottom: solid 2px rgba(39, 39, 39, 0.527);
+}
+
+#organic-container #table-comparative-container .left .row {
+    border-bottom: solid 2px rgba(224, 224, 224, 0.616);
+}
+
+#organic-container #table-comparative-container .row {
+    display: flex;
+    align-items: center;
+    padding: 45px 0;
+    /********************espacio del titulo derecho*/
+    height: 250px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#organic-container #table-comparative-container .row .icon {
+    margin: 0 20px;
+}
+
+#organic-container #table-comparative-container .row h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/******************************************DESCRIPCION*/
+
+#organic-container #table-comparative-container .row .description {
+    width: 75%;
+    font-size: 12px;
+}
+
+#organic-container #table-comparative-container .row .description p {
+    text-align: justify;
+    /*justificar perrafo*/
+    font-size: 15px;
+}
+
+#organic-container #shopping-container {
+    position: relative;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.material-icons-outlined {
+    margin-right: 5px;
+}
+
+/**********************************carosul de expertos*/
+
+.content-center {
+    max-width: 900px;
+    margin: 0 auto 0 0;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.content-center h2 {
+    color: var(--tercer-color);
+    font-weight: bold;
+    margin: 100px 0 35px 100px;
+}
+
+.content-center p {
+    color: var(--letra-color);
+}
+
+.content-center i {
+    color: var(--tercer-color);
+    font-size: 40px;
+    position: relative;
+}
+
+span {
+    font-weight: 600;
+}
+
+.carousel {
+    min-height: 240px;
+    /*padding: 40px;*/
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel-inner {
+    /*background-color:rgba(49, 211, 130, 0.3);*/
+    background-color: rgba(0, 0, 0, 0.455);
+    border-radius: 20px;
+    padding: 80px 0 0 0;
+    background-size: cover;
+    min-height: 500px;
+    /*tamaño  minimo de la imagen */
+}
+
+.carousel-item p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 43px;
+    font-family: 'Anton', sans-serif;
+    color: var(--fondo-color);
+}
+
+.carousel-indicators li {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: black;
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button {
+    background-color: var(--letra-color);
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid var(--dark-color);
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.carousel-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+    color: var(--fondo-color);
+}
+
+.testimonial-user span {
+    font-size: 12px;
+    color: var(--fondo-color)
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+.rating i {
+    color: var(--hoja-colo);
+    font-size: 26px;
+}
+
+
+/*********************************************stikye de nav bar .js*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+/***************************************Contenedor de agradecimiento*/
+
+.container_a {
+    display: flex;
+    padding: 60px 0;
+}
+
+.cuadrilla {
+    /*cuadrilla de agradecimiento*/
+    margin-top: 120px;
+    margin-left: 65px;
+}
+
+.cuadrilla h2 {
+    padding-bottom: 20px;
+    color: #8675a9;
+    font-weight: bold;
+}
+
+.efec1 {
+    background-color: #fbfd8a;
+    border-radius: 20%;
+    margin-right: 15px;
+}
+
+.efec2 {
+    background-color: #a2de96;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.efec2 img {
+    padding-left: 40px;
+}
+
+.efec2 h6 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.efec3 {
+    background-color: #ff7171;
+    border-radius: 20%;
+    margin-right: 15px;
+}
+
+.efec4 {
+    background-color: #b9fffc;
+    border-radius: 20%;
+}
+
+
+/**************************************footer*/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 10vmin 15vmin 0vmin 15vmin;
+}
+
+footer p>span {
+    color: var(--tercer-color);
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+footer .input-group .input-group-text .flecha {
+    columns: white;
+}
+
+
+footer .column i {
+    color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+/***********************************************animacion SVG*/
+
+svg {
+    width: 800px;
+    height: 750px;
+    margin-left: 0%;
+    display: block;
+}
+
+svg#freepik_stories-world:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-world.animated #freepik--background-simple--inject-475 {
+    animation: 4.7s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear wind;
+    animation-delay: 0s, 4.7s;
+}
+
+svg#freepik_stories-world.animated #freepik--Plants--inject-475 {
+    animation: 3.1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideLeft, 6s Infinite linear shake;
+    animation-delay: 0s, 3.1s;
+}
+
+svg#freepik_stories-world.animated #freepik--Floor--inject-475 {
+    animation: 3.2s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-world.animated #freepik--Character--inject-475 {
+    animation: 3.4s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideUp, 1.5s Infinite linear wind;
+    animation-delay: 0s, 3.4s;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate( 0deg);
+    }
+    25% {
+        transform: rotate( 1deg);
+    }
+    75% {
+        transform: rotate( -1deg);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
